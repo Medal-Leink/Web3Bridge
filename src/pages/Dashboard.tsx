@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import CategoryManager from '../components/TransactionCategorization';
+import { useState } from 'react';
+import CategoryManager from '../component/TransactionCategorization';
 
 export default function Dashboard() {
   const [categories, setCategories] = useState({
